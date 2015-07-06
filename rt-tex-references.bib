@@ -977,8 +977,7 @@ This analysis shows that the recorded strong-motion spectra are significantly ov
   Pages                    = {375--404},
   Volume                   = {180},
 
-  Doi                      = {10.1111/j.1365-246X.2009.04417.x},
-  Url                      = {http://dx.doi.org/10.1111/j.1365-246X.2009.04417.x}
+  Doi                      = {10.1111/j.1365-246X.2009.04417.x}
 }
 
 @Article{Bielak_2011_G,
@@ -3461,7 +3460,9 @@ The experimental data are then compared to the results of the numerical simulati
   Author                   = {Isbiliroglu, Y. and Taborda, R. and Bielak, J.},
   Journal                  = ES,
   Year                     = {2015},
-  Note                     = {In press},
+  Number                   = {1},
+  Pages                    = {463--500},
+  Volume                   = {31},
 
   Doi                      = {10.1193/102412EQS315M}
 }
@@ -3858,7 +3859,9 @@ The experimental data are then compared to the results of the numerical simulati
   Year                     = {2015},
 
   Address                  = {Vancouver, Canada, July 12--15},
-  Note                     = {Submitted}
+  Note                     = {Submitted},
+
+  Url                      = {https://circle.ubc.ca/handle/2429/53374}
 }
 
 @InProceedings{Khoshnevis_2015_SSA,
@@ -6419,7 +6422,7 @@ It is the purpose of this paper to provide an overview of soil constitutive mode
 @InProceedings{Schlosser_2008_Proc,
   Title                    = {Materialized community ground models for large-scale earthquake simulation},
   Author                   = {Schlosser, Steven W. and Ryan, Michael P. and Taborda, Ricardo and L\'{o}pez, Julio and O'Hallaron, David and Bielak, Jacobo},
-  Booktitle                = {SC '08: Proc.~ACM/IEEE Int.~Conf.~for High Performance Computing, Networking, Storage and Analysis},
+  Booktitle                = {SC'08: Proc.~ACM/IEEE Int.~Conf.~for High Performance Computing, Networking, Storage and Analysis},
   Year                     = {2008},
 
   Address                  = {Austin, Texas},
@@ -6430,7 +6433,7 @@ It is the purpose of this paper to provide an overview of soil constitutive mode
   Abstract                 = {Large-scale earthquake simulation requires source datasets which describe the highly heterogeneous physical characteristics of the earth in the region under simulation. Physical characteristic datasets are the first stage in a simulation pipeline which includes mesh generation, partitioning, solving, and visualization. In practice, the data is produced in an ad-hoc fashion for each set of experiments, which has several significant shortcomings including lower performance, decreased repeatability and comparability, and a longer time to science, an increasingly important metric.
 
 As a solution to these problems, we propose a new approach for providing scientific data to ground motion simulations, in which ground model datasets are fully materialized into octress stored on disk, which can be more efficiently queried (by up to two orders of magnitude) than the underlying community velocity model programs. While octrees have long been used to store spatial datasets, they have not yet been used at the scale we propose. We further propose that these datasets can be provided as a service, either over the Internet or, more likely, in a datacenter or supercomputing center in which the simulations take place. Since constructing these octrees is itself a challenge, we present three data-parallel techniques for efficiently building them, which can significantly decrease the build time from days or weeks to hours using commodity clusters. This approach typifies a broader shift toward science as a service techniques in which scientific computation and storage services become more tightly intertwined.},
-  File                     = {Schlosser_2008_Proc.pdf:C\:\\Documents and Settings\\root\\My Documents\\My eJournals\\Schlosser_2008_Proc.pdf:PDF}
+  Doi                      = {10.1109/SC.2008.5215657}
 }
 
 @Article{Schanabel_1972_BSSA,
@@ -7175,11 +7178,13 @@ In this study we describe a scalable, finite element octree-based parallel toolc
 @InCollection{Taborda_2015_Chap,
   Title                    = {Physics-Based Ground Motion Simulation},
   Author                   = {Taborda, R. and Roten, D.},
-  Booktitle                = {Encyclopedia of Earthquake Engineering: SpringerReference (www.springerreference.com)},
-  Publisher                = {Springer-Verlag Berlin Heidelberg},
+  Booktitle                = {Encyclopedia of Earthquake Engineering},
+  Publisher                = {Springer Berlin Heidelberg},
   Year                     = {2015},
-  Editor                   = {Beer, M. and Patelli, E. and Kougioumtzoglou, I. and Au, I.},
-  Note                     = {In revision}
+  Editor                   = {Beer, M. and Patelli, E. and Kougioumtzoglou, I. and Au, S.K.},
+  Pages                    = {33},
+
+  Doi                      = {10.1007/978-3-642-36197-5_240-1}
 }
 
 @InProceedings{Taborda_2011_SSA,
@@ -7591,6 +7596,18 @@ In this study we describe a scalable, finite element octree-based parallel toolc
 
   Abstract                 = {We present a rupture model of the Northridge earthquake, determined from the joint inversion of near-source strong ground motion recordings, P and SH teleseismic body waves, Global Positioning System (GPS) displacement vectors, and permanent uplift measured along leveling lines. The fault is defined to strike 122{degrees} and dip 40{degrees} to the south-southwest. The average rake vector is determined to be 101{degrees}, and average slip is 1.3 m; the peak slip reaches about 3 m. Our estimate of the seismic moment is 1.3 {+/-} 0.2 x 1026 dyne-cm (potency of 0.4 km3). The rupture area is small relative to the overall aftershock dimensions and is approximately 15 km along strike, nearly 20 km in the dip direction, and there is no indication of slip shallower than about 5 to 6 km. The up-dip, strong-motion velocity waveforms are dominated by large S-wave pulses attributed to source directivity and are comprised of at least 2 to 3 distinct arrivals (a few seconds apart). Stations at southern azimuths indicate two main S-wave arrivals separated longer in time (about 4 to 5 sec). These observations are best modeled with a complex distribution of subevents: The initial S-wave arrival comes from an asperity that begins at the hypocenter and extends up-dip and to the north where a second, larger subevent is centered (about 12 km away). The secondary S arrivals at southern azimuths are best fit with additional energy radiation from another high slip region at a depth of 19 km, 8 km west of the hypocenter. The resolving power of the individual data sets is examined by predicting the geodetic (GPS and leveling) displacements with the dislocation model determined from the waveform data, and vice versa, and also by analyzing how well the teleseismic solution predicts the recorded strong motions. The general features of the geodetic displacements are not well predicted from the model determined independently from the strong-motion data; likewise, the slip model determined from geodetic data does not adequately reproduce the strong-motion characteristics. Whereas a particularly smooth slip pattern is sufficient to satisfy the geodetic data, the strong-motion and teleseismic data require a more heterogeneous slip distribution in order to reproduce the velocity amplitudes and frequency content. Although the teleseismic model can adequately reproduce the overall amplitude and frequency content of the strong-motion velocity recordings, it does a poor job of predicting the geodetic data. Consequently, a robust representation of the slip history and heterogeneity requires a combined analysis of these data sets.},
   Doi                      = {http://www.bssaonline.org/cgi/content/abstract/86/1B/S49}
+}
+
+@Article{Wang_2014_BSSA,
+  Title                    = {Comparison of Probabilistic Seismic-Hazard Models Using Averaging-Based Factorization},
+  Author                   = {Wang, F. and Jordan, T. H.},
+  Journal                  = BSSA,
+  Year                     = {2014},
+  Number                   = {3},
+  Pages                    = {1230--1257},
+  Volume                   = {103},
+
+  Doi                      = {10.1785/0120130263}
 }
 
 @Article{Warburton_1971_JAM,
@@ -8036,7 +8053,7 @@ In this thesis, several methods for the calculation of foundation compliances fo
   Address                  = {Tampa, FL, November 11--17},
   Note                     = {Winer, HPC Analytics Challenge},
 
-  Doi                      = {http://doi.acm.org/10.1145/1188455.1188767}
+  Doi                      = {10.1145/1188455.1188767}
 }
 
 @Article{Yun_1999_SDEE,
