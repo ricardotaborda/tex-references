@@ -57,6 +57,7 @@
 @String { SCI    = {Science} }
 @String { SDEE   = {Soil~Dynam.~Earthquake Eng.} }
 @String { SF     = {Soils Found.} }
+@String { SG     = {Surv.~Geophys.} }
 @String { SGG    = {Stud.~Geophys.~Geod.} }
 @String { SRL    = {Seismol.~Res.~Lett.} }
 @String { TP     = {Tectonophysics} }
@@ -2016,6 +2017,17 @@ This analysis shows that the recorded strong-motion spectra are significantly ov
   Number                   = {5},
   Pages                    = {249--255},
   Volume                   = {10}
+}
+
+@Article{Douglas_2008_SG,
+  Title                    = {A survey of techniques for predicting ground motions for earthquake engineering},
+  Author                   = {Douglas, John and Aochi, Hideo},
+  Journal                  = SG,
+  Year                     = {2008},
+  Pages                    = {187--220},
+  Volume                   = {29},
+
+  Doi                      = {10.1007/s10712-008-9046-y}
 }
 
 @Article{Drucker_1952_QAM,
@@ -5288,6 +5300,14 @@ Observations of the earthquake source-time function are enhanced if path, record
   Url                      = {http://www.nehrp.gov/pdf/strategic_plan_2008.pdf}
 }
 
+@TechReport{NEHRP_2015_Tech,
+  Title                    = {NEHRP Recommended Seismic Provisions for New Buildings and Other Structures},
+  Author                   = {NEHRP/RSP},
+  Institution              = {Building Seismic Safety Council, National Institute of Building Sciences},
+  Year                     = {2015},
+  Number                   = {FEMA P-1050-1 and P-1050-2}
+}
+
 @PhdThesis{Mezher_2004_Thesis,
   Title                    = {Numerical modeling and quantification of the site-city seismic effect (in French)},
   Author                   = {Nezher, Nader},
@@ -6000,6 +6020,13 @@ It is the purpose of this paper to provide an overview of soil constitutive mode
   Doi                      = {10.1111/j.1365-246X.2006.02947.x}
 }
 
+@TechReport{Project17_2015_Tech,
+  Title                    = {Project 17 -- {D}eveloping Next-Generation Seismic Design Value Maps},
+  Author                   = {{Project 17}},
+  Institution              = {Project 17 Planning Committee, Building Seismic Safety Council, National Institute Building Sciences},
+  Year                     = {2015}
+}
+
 @Article{Pulido_2004_T,
   Title                    = {Near-fault strong motion complexity of the 2000 {T}ottori earthquake ({J}apan) from a broadband source asperity model},
   Author                   = {Pulido, N. and Kubo, T.},
@@ -6520,6 +6547,13 @@ It is the purpose of this paper to provide an overview of soil constitutive mode
 
   Address                  = {Paml Springs, CA, September 12--16},
   Number                   = {GMP 009}
+}
+
+@Electronic{UGMS_Elink,
+  Title                    = {{SCEC Committee for Utilization of Ground Motions Simulations}},
+  Author                   = {SCEC/UGMS},
+  Note                     = {\url{https://scec.usc.edu/scecpedia/UGMS}},
+  Year                     = {2016}
 }
 
 @Electronic{SCEDC_2013_Web,
@@ -7046,23 +7080,14 @@ These new implementations represent important advances in computational seismolo
   Year                     = {2003}
 }
 
-@InProceedings{Taborda_2017_WCEEa,
-  Title                    = {On the Influence of Buildings Spacing in Site-City Interaction Effects},
-  Author                   = {Taborda, R. and Azizzadeh-Roodpish, S.},
-  Booktitle                = {Proc.~World Conf.~Earthq.~Eng.},
-  Year                     = {2017},
-
-  Address                  = {Santiago de Chile, Chile, January 9--13},
-  Note                     = {Abstract accepted. Full paper to be submitted by deadline, 30 April 2016},
-  Number                   = {4520}
-}
-
 @Article{Taborda_2016_GJI,
   Title                    = {Evaluation of the Southern {C}alifornia Seismic Velocity Models through Simulation of Recorded Events},
   Author                   = {Taborda, R. and Azizzadeh-Roodpish, S. and Khoshnevis, N. and Cheng, K.},
   Journal                  = GJI,
   Year                     = {2016},
-  Note                     = {in press},
+  Number                   = {3},
+  Pages                    = {1342--1364},
+  Volume                   = {205},
 
   Doi                      = {10.1093/gji/ggw085}
 }
@@ -7266,14 +7291,14 @@ These new implementations represent important advances in computational seismolo
   Address                  = {Palm Springs, CA, September 13--16}
 }
 
-@InProceedings{Taborda_2017_WCEEb,
-  Title                    = {Influence of the Source, Seismic Velocity, and Attenuation Models on the Validation of Deterministic Ground Motion Simulations in Southern {C}alifornia},
-  Author                   = {Taborda, R. and Khoshnevis, N. and Huda, M. and Azizzadeh-Roodpish, S.},
+@InProceedings{Taborda_2017_WCEE,
+  Title                    = {Influence of the Source, Seismic Velocity, and Attenuation Models on the Validation of Ground Motion Simulations},
+  Author                   = {Taborda, R. and Khoshnevis, N. and Azizzadeh-Roodpish, S. and Huda, M.},
   Booktitle                = {Proc.~World Conf.~Earthq.~Eng.},
   Year                     = {2017},
 
   Address                  = {Santiago de Chile, Chile, January 9--13},
-  Note                     = {Abstract accepted. Full paper to be submitted by deadline, 30 April 2016},
+  Note                     = {Abstract accepted, full-article submitted},
   Number                   = {4574}
 }
 
@@ -7999,6 +8024,18 @@ In this study we describe a scalable, finite element octree-based parallel toolc
   Volume                   = {86},
 
   Url                      = {http://www.bssaonline.org/content/86/3/914}
+}
+
+@Article{Withers_2015_BSSA,
+  Title                    = {Memory-Efficient Simulation of Frequency-Dependent $Q$},
+  Author                   = {Withers, K. B. and Olsen, K. B. and Day, S. M.},
+  Journal                  = BSSA,
+  Year                     = {2015},
+  Number                   = {6},
+  Pages                    = {3129--3142},
+  Volume                   = {105},
+
+  Doi                      = {10.1785/0120150020}
 }
 
 @InProceedings{Withers_2013_SCEC,
