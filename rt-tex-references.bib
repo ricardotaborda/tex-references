@@ -44,7 +44,8 @@
 @String { JGGE   = {J.~Geotech.~Geoenviron.~Eng., ASCE} }
 @String { JGR    = {J.~Geophys.~Res.} }
 @String { JMPS   = {J.~Mech.~Phys.~Solids} }
-@String { JS     = {J.~Seismology} }
+@String { JPVT   = {J.~Pressure Vessel Technol.} }
+@String { JS     = {J. Seismology} }
 @String { JSE    = {J.~Struct.~Eng., ASCE} }
 @String { JSG    = {J.~Struct.~Geol.} }
 @String { JSMFD  = {J.~Soil Mech.~Found.~Div., ASCE} }
@@ -1436,9 +1437,7 @@ This analysis shows that the recorded strong-motion spectra are significantly ov
   Year                     = {2006},
   Number                   = {52},
   Pages                    = {~Fall Meet.~Suppl., Abstr.~S51B-1266},
-  Volume                   = {87},
-
-  Abstract                 = {Three-dimensional simulations of earthquakes have given a deeper understanding of wave propagation and site effects in urban regions. In this work we study the impact of a potential major earthquake on the San Andreas Fault with significant seismic hazard in the Greater Los Angeles Basin. We present results for the ShakeOut simulation---a rupture beginning near Salton Sea, California, heading 270 km northwest along the fault, that produces a Mw 7.8 earthquake in a geographical region which includes all major populated areas of Southern California and northern Mexico, in a 600 km by 300 km by 80 km volume, for a maximum frequency of 1.0 Hz and a minimum shear wave velocity of 200 m/s. For the material model, we use a discretized version of SCEC's CVM4 velocity model, called CVM-Etree. The simulation was performed at the Pittsburgh Supercomputing Center using Hercules, a finite element octree-based, parallel software developed by the Quake Group at Carnegie Mellon University. Hercules implements a highly efficient end-to-end algorithm for solving the wave field in highly heterogeneous media due to kinematic faulting. We verify our results by comparing synthetic seismograms computed with a parallel finite difference code by Robert Graves (URS) for a similar scenario earthquake, for a maximum frequency of 0.5 Hz and minimum shear wave velocity of 500 m/s. We focus our analysis of the results of the 1.0 Hz ShakeOut simulation on the Los Angeles Basin area, and the Santa Clara River Valley and Oxnard Plain. We examine the site effects present in these two areas and their proneness to capture and amplify seismic waves due to their geological features. Results show a direct correlation between the amplification levels and the local soil and basin profiles.}
+  Volume                   = {87}
 }
 
 @Article{Broughton_2001_EG,
@@ -1847,8 +1846,7 @@ This analysis shows that the recorded strong-motion spectra are significantly ov
   Volume                   = {4},
 
   Abstract                 = {Earthquakes are among the most complex terrestrial phenomena, and modeling of earthquake dynamics is one of the most challenging computational problems in science. Computational capabilities have advanced to a state where we can perform wavefield simulations for realistic three-dimensional earth models, and gain more insights into the earthquakes that threaten California and many areas of the world. The Southern California Earthquake Center initiated a major earthquake research program called TeraShake to perform physics-based numerical simulations of earthquake processes for large geographical regions, at high resolution, and for high frequencies. For a large scale simulation such as TeraShake, optimization problems tend to emerge that are not significant in smaller scale simulations. This involves both large parallel computation and also massive data management and visualization coordination. In this paper, we describe how we performed single-processor optimization of the TeraShake AWM application, optimization of the I/O handling, and optimization of initialization. We also look at the challenges presented by run-time data archive management and visualization. The improvements made to the TeraShake AWM code enabled execution on the 40k IBM Blue Gene processors and have created a community code that can be used by seismologists to perform petascale earthquake simulations.},
-  Doi                      = {10.1007/s11440-008-0055-2},
-  Url                      = {http://www.springerlink.com/content/R283231504742533}
+  Doi                      = {10.1007/s11440-008-0055-2}
 }
 
 @InBook{Cui_2009_BookChapter,
@@ -1862,8 +1860,7 @@ This analysis shows that the recorded strong-motion spectra are significantly ov
   Series                   = {Lecture Notes in Earth Sciences},
 
   Abstract                 = {Geoscientific and computer science researchers with the Southern California Earthquake Center (SCEC) are conducting a large-scale, physics-based, computationally demanding earthquake system science research program with the goal of developing predictive models of earthquake processes. The computational demands of this program continue to increase rapidly as these researchers seek to perform physics-based numerical simulations of earthquake processes for larger meet the needs of this research program, a multiple-institution team coordinated by SCEC has integrated several scientific codes into a numerical modeling-based research tool we call the TeraShake computational platform (TSCP). A central component in the TSCP is a highly scalable earthquake wave propagation simulation program called the TeraShake anelastic wave propagation (TS-AWP) code. In this chapter, we describe how we extended an existing, stand-alone, wellvalidated, finite-difference, anelastic wave propagation modeling code into the highly scalable and widely used TS-AWP and then integrated this code into the TeraShake computational platform that provides end-to-end (initialization to analysis) research capabilities. We also describe the techniques used to enhance the TS-AWP parallel performance on TeraGrid supercomputers, as well as the TeraShake simulations phases including input preparation, run time, data archive management, and visualization. As a result of our efforts to improve its parallel efficiency, the TS-AWP has now shown highly efficient strong scaling on over 40K processors on IBM's BlueGene/L Watson computer. In addition, the TSCP has developed into a computational system that is useful to many members of the SCEC community for performing large-scale earthquake simulations.},
-  Doi                      = {10.1007/978-3-540-85879-9},
-  Url                      = {http://www.springerlink.com/content/B64131U80J585878}
+  Doi                      = {10.1007/978-3-540-85879-9}
 }
 
 @InProceedings{Cui_2010_Proc,
@@ -2971,9 +2968,7 @@ In this study, earthquake ground motions have been generated for the Upper Missi
   Pages                    = {2095--2123},
   Volume                   = {100},
 
-  Doi                      = {10.1785/0120100057},
-  File                     = {Graves_2010_BSSA.pdf:C\:\\Documents and Settings\\root\\My Documents\\My eJournals\\Graves_2010_BSSA.pdf:PDF},
-  Url                      = {http://bssaonline.org/cgi/content/abstract/100/5A/2095}
+  Doi                      = {10.1785/0120100057}
 }
 
 @InProceedings{Graves_2004_Proc,
@@ -3522,6 +3517,30 @@ The experimental data are then compared to the results of the numerical simulati
 
   Owner                    = {rtaborda},
   Timestamp                = {2014.10.28}
+}
+
+@Article{Ichimura_2014_JPVT,
+  Title                    = {Three-Dimensional Nonlinear Seismic Ground Response Analysis of Local Site Effects for Estimating Seismic Behavior of Buried Pipelines},
+  Author                   = {Ichimura, T. and Fujita, K. and Hori, M. and Sakanoue, T. and Hamanaka, R.},
+  Journal                  = JPVT,
+  Year                     = {2014},
+  Number                   = {4},
+  Pages                    = {041702},
+  Volume                   = {136},
+
+  Doi                      = {10.1115/1.4026208}
+}
+
+@InProceedings{Ichimura_2014_SC,
+  Title                    = {Physics-based urban earthquake simulation enhanced by 10.7 {BlnDOF} $\times$ 30 {K} time-step unstructured {FE} non-linear seismic wave simulation},
+  Author                   = {Ichimura, T. and Fujita, K. and Tanaka, S. and Hori, M. and Lalith, M. and Shizawa, Y. and Kobayashi, H.},
+  Booktitle                = {SC'14 Proc.~Int.~Conf.~High Performance Computing, Networking, Storage and Analysis},
+  Year                     = {2014},
+
+  Address                  = {New Orleans, Louisana},
+  Pages                    = {15--26},
+
+  Doi                      = {10.1109/SC.2014.7}
 }
 
 @Article{Ichimura_2006_EESD1,
@@ -4219,10 +4238,7 @@ The experimental data are then compared to the results of the numerical simulati
   Editor                   = {Maugeri, Michele and Soccodato, Claudio},
   Pages                    = {223--240},
   Series                   = {Geotechnical, Geological and Earthquake Engineering},
-  Volume                   = {28},
-
-  Owner                    = {rtaborda},
-  Timestamp                = {2014.12.01}
+  Volume                   = {28}
 }
 
 @TechReport{Kim_2001_Tech,
