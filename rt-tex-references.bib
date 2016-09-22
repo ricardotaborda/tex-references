@@ -2033,7 +2033,7 @@ This analysis shows that the recorded strong-motion spectra are significantly ov
   Volume                   = {91},
 
   Abstract                 = {Realistic anelastic attenuation can be incorporated rigorously into finite difference and other numerical wave propagation methods using internal or memory variables. The main impediment to the realistic treatment of anelastic attenuation in 3D is the very large computational storage requirement imposed by the additional variables. We previously proposed an alternative to the conventional memory-variable formulation, the method of coarse-grain memory variables, and demonstrated its effectiveness in acoustic problems. We generalize this memory-efficient formulation to 3D anelasticity and describe a fourth-order, staggered-grid finite-difference implementation. The anelastic coarse-grain method applied to plane wave propagation successfully simulates frequency-independent Qp and Qs. Apparent Q values are constant to within 4 percent tolerance over approximately two decades in frequency and biased less than 4 percent from specified target values. This performance is comparable to that achieved previously for acoustic-wave propagation, and accuracy could be further improved by optimizing the memory-variable relaxation times and weights. For a given assignment of relaxation times and weights, the coarse-grain method provides an eight-fold reduction in the storage requirement for memory variables, relative to the conventional approach. The method closely approximates the wavenumber-integration solution for the response of an anelastic half-space to a shallow dislocation source, accurately calculating all phases including the surface-diffracted SP phase and the Rayleigh wave. The half-space test demonstrates that the wave field-averaging concept underlying the coarse-grain method is effective near boundaries and in the presence of evanescent waves. We anticipate that this method will also be applicable to unstructured grid methods, such as the finite-element method and the spectral-element method, although additional numerical testing will be required to establish accuracy in the presence of grid irregularity. The method is not effective at wavelengths equal to and shorter than 4 grid cell dimensions, where it produces anomalous scattering effects. This limitation could be significant for very high-order numerical schemes under some circumstances (i.e., whenever wave-lengths as short as 4 grids are otherwise within the usable bandwidth of the scheme), but it is of no practical importance in our fourth-order finite-difference implementation.},
-  Url                      = {http://www.bssaonline.org/cgi/content/abstract/91/3/520}
+  Doi                      = {10.1785/0120000103}
 }
 
 @Article{Day_2008_ES,
@@ -2756,6 +2756,16 @@ In this study, earthquake ground motions have been generated for the Upper Missi
   Timestamp                = {2014.08.20}
 }
 
+@InProceedings{Gill_2016_AGU,
+  Title                    = {{UCVM: F}rom Supercomputers to Laptops, Querying and Visualizing {3D} Seismic Velocity Models},
+  Author                   = {Gill, D. and Small, P. and Maechling, P. J. and Jordan, T. H. and Shaw, J. H. and Plesch, A. and Lee, En-Jui and Chen, P. and Goulet, C. A. and Taborda, R. and Olsen, K. and Callagham, S.},
+  Booktitle                = {Abstr.~AGU Fall Meet.},
+  Year                     = {2016},
+
+  Address                  = {San Francisco, California, December 12--16},
+  Number                   = {submitted}
+}
+
 @InProceedings{Gill_2015_SSA,
   Title                    = {Standardized Access to Seismic Velocity Models Using the Unified Community Velocity Model ({UCVM}) Software},
   Author                   = {Gill, D. and Small, P. and Taborda, R. and Lee, En-Jui and Olsen, K. B. and Maechling, P. J. and Jordan, T. H.},
@@ -2883,6 +2893,16 @@ In this study, earthquake ground motions have been generated for the Upper Missi
   File                     = {Graves_1996_Proc.PDF:C\:\\Documents and Settings\\root\\My Documents\\My eJournals\\Graves_1996_Proc.PDF:PDF}
 }
 
+@Article{Graves_1993_BSSA,
+  Title                    = {Modeling three-dimensional site response effects in the {M}arina {D}istrict Basin, {S}an {F}rancisco, {C}alifornia},
+  Author                   = {Graves, R. W.},
+  Journal                  = BSSA,
+  Year                     = {1993},
+  Number                   = {4},
+  Pages                    = {1042--1063},
+  Volume                   = {83}
+}
+
 @Article{Graves_2011_BSSA,
   Title                    = {Testing Long-Period Ground-Motion Simulations of Scenario Earthquakes Using the $M_{\mathrm{w}}$ 7.2 {E}l {M}ayor-{C}ucapah Mainshock: {E}valuation of Finite-Fault Rupture Characterization and {3D} Seismic Velocity Models},
   Author                   = {Graves, R. W. and Aagaard, B. T.},
@@ -2919,6 +2939,15 @@ In this study, earthquake ground motions have been generated for the Upper Missi
 
   Abstract                 = {We analyze the stability and accuracy of the coarse-grain memory variable technique used for viscoelastic wave-field simulations. Our analysis shows that the general behavior of the coarse-grain system is well described by effective parameters (ME and QE) that are derived from the harmonic average of the moduli over the volume of the coarse-grain cell. The use of these effective parameters proves essential for analyzing the performance and accuracy of the coarse-grain system for Q values less than about 20. A necessary stability condition for the coarse-grain system requires that the weighting coefficients be bounded between 0 and 1. Specifying the weights using the approach of Day and Bradley (2001) satisfies this condition for Q values of about 3 and larger; however, using unconstrained optimization techniques will often produce weights that violate this condition at much higher Q values. We also derive a variation of the original coarse-grain methodology called the element-specific modulus (ESM) formulation in which each element of the coarse-grain cell uses a different unrelaxed modulus. We demonstrate that the accuracy of the coarse-grain system for Q values lower than about 20 is significantly improved with the ESM formulation without increasing the computational cost. Finally, we present a technique for optimizing the accuracy of the coarse-grain system for very low Q based on the use of the effective quality factor (QE). We demonstrate that using conventional optimization techniques that do not employ the effective parameter QE will actually degrade the accuracy of the coarse-grain system.},
   Url                      = {http://www.bssaonline.org/cgi/content/abstract/93/1/283}
+}
+
+@Article{Graves_2016_BSSA,
+  Title                    = {Kinematic Ground-Motion Simulations on Rough Faults Including Effects of {3D} Stochastic Velocity Perturbations},
+  Author                   = {Graves, R. W. and Pitarka, A.},
+  Journal                  = BSSA,
+  Year                     = {2016},
+
+  Doi                      = {10.1785/0120160088}
 }
 
 @Article{Graves_2015_SRL,
@@ -3446,7 +3475,7 @@ The experimental data are then compared to the results of the numerical simulati
   Year                     = {2016},
 
   Address                  = {Reno, Nevada, April 20--22},
-  Note                     = {Accepted}
+  Number                   = {87(2B):562}
 }
 
 @InProceedings{Huda_2015_SCEC,
@@ -3457,6 +3486,16 @@ The experimental data are then compared to the results of the numerical simulati
 
   Address                  = {Palm Springs, CA, September 12--16},
   Number                   = {CME 036}
+}
+
+@InProceedings{Huda_2015_AGU,
+  Title                    = {On the Formulation of a Displacement-Based Model for Representing Anelastic Attenuation in Wave Propagation Simulations},
+  Author                   = {Huda, M. and Taborda, R. and Khoshnevis, N.},
+  Booktitle                = {Proc. 2015 Fall Meeting, AGU},
+  Year                     = {2015},
+
+  Address                  = {San Francisco, California, December 14--18},
+  Number                   = {Abstract S43A-2763}
 }
 
 @Article{Hudson_1972_BSSA,
@@ -4076,11 +4115,11 @@ The experimental data are then compared to the results of the numerical simulati
 }
 
 @Article{Khoshnevis_2016_JS,
-  Title                    = {Seismic Hazard Estimation of Northern {I}ran Using Smoothed Historical Seismicity},
+  Title                    = {Seismic Hazard Estimation of Northern {I}ran Using Smoothed Seismicity},
   Author                   = {Khoshnevis, N. and Azizzadeh-Roodpish, S. and Taborda, R. and Cramer, C. H.},
   Journal                  = JS,
   Year                     = {2016},
-  Note                     = {To be submitted February 2016 -- Complete manuscript available on request.}
+  Note                     = {Under review}
 }
 
 @InProceedings{Khoshnevis_2016_SSA,
@@ -4090,7 +4129,7 @@ The experimental data are then compared to the results of the numerical simulati
   Year                     = {2016},
 
   Address                  = {Reno, Nevada, April 20--22},
-  Note                     = {Accepted}
+  Number                   = {SRL 87(2B):482}
 }
 
 @InProceedings{Khoshnevis_2015_AGU,
@@ -5724,7 +5763,6 @@ Observations of the earthquake source-time function are enhanced if path, record
   Volume                   = {86},
 
   Abstract                 = {We have used a 3D finite-difference method to simulate ground motion from elastodynamic propagating ruptures with constant slip on faults in the metropolitan area of Los Angeles, California. Simulations are carried out for hypothetical M 6.75 earthquakes on the Palos Verdes and Elysian Park faults and, for comparison, an approximation to the 17 January 1994 M 6.7 Northridge earthquake. The dominant subsurface features of this area are the deep sedimentary Los Angeles basin and the smaller and shallower San Fernando basin. Simulated ground motions are restricted to the frequency range 0.0 to 0.4 Hz. Ground-motion time histories show that, in general, sites associated with the largest particle velocities and cumulative kinetic energies are located (1) in the epicentral area, (2) above the deepest parts of the basins, and (3) near the steepest edges of the Los Angeles basin. We find maximum particle velocities for the Palos Verdes, Elysian Park, and Northridge simulations of 0.44, 0.67, and 0.58 m/sec, respectively. In each case, both the directivity of the rupture and the lower impedance of the basins significantly amplify the ground motion. Although the gross radiation pattern from these ruptures is observable, the 3D basin structure distorts the wave field and becomes a source for edge-generated waves. Signal durations at some basin sites last beyond 90 sec due to Love waves and refracted S waves that propagate into the sediments from the basin edges. Compared with the Palos Verdes event, the durations are generally smaller for the Elysian Park earthquake due to a smaller amount of Love waves generated at the basin edges. A simple approximation to the Northridge earthquake reproduces the overall spatial pattern of the long-period particle velocities, successfully predicts the timing of late-arriving waves, and matches the peak velocities with discrepancies generally less than a factor of 2. However, for localized areas immediately north and south of the Santa Monica Mountains, the computed ground motion underpredicts the observed horizontal peak velocities but matches the vertical ones. The pattern of simulated total cumulative kinetic energies is similar to that for the damage intensities observed near the epicenter of the Northridge event. While the Northridge earthquake caused damage in the Los Angeles area, the 3D simulations show that earthquakes with the same magnitude on the Palos Verdes or Elysian Park faults produce more severe ground shaking in the Los Angeles basin.},
-  File                     = {Olsen_1996_BSSA.pdf:C\:\\Documents and Settings\\root\\My Documents\\My eJournals\\Olsen_1996_BSSA.pdf:PDF},
   Url                      = {http://www.bssaonline.org/cgi/content/abstract/86/3/575}
 }
 
@@ -5741,7 +5779,6 @@ Observations of the earthquake source-time function are enhanced if path, record
 
   Abstract                 = {Simulation of 2 minutes of long-period ground motion in the Los Angeles area with the use of a three-dimensional finite-difference method on a parallel supercomputer provides an estimate of the seismic hazard from a magnitude 7.75 earthquake along the 170-kilometer section of the San Andreas fault between Tejon Pass and San Bernardino. Maximum ground velocities are predicted to occur near the fault (2.5 meters per second) and in the Los Angeles basin (1.4 meters per second) where large amplitude surface waves prolong shaking for more than 60 seconds. Simulated spectral amplitudes for some regions within the Los Angeles basin are up to 10 times larger than those at sites outside the basin at similar distances from the San Andreas fault.},
   Doi                      = {10.1126/science.270.5242.1628},
-  File                     = {Olsen_1995_S.pdf:C\:\\Documents and Settings\\root\\My Documents\\My eJournals\\Olsen_1995_Sc.pdf:PDF},
   Url                      = {http://www.sciencemag.org/cgi/content/abstract/270/5242/1628}
 }
 
@@ -5794,8 +5831,8 @@ Observations of the earthquake source-time function are enhanced if path, record
   Volume                   = {98},
 
   Abstract                 = {Previous numerical simulations (TeraShake1) of large (Mw 7.7) southern San Andreas fault earthquakes predicted localized areas of strong amplification in the Los Angeles area associated with directivity and wave-guide effects from northwestward-propagating rupture scenarios. The TeraShake1 source was derived from inversions of the 2002 Mw 7.9 Denali, Alaska, earthquake. That source was relatively smooth in its slip distribution and rupture characteristics, owing both to resolution limits of the inversions and simplifications imposed by the kinematic parameterization. New simulations (TeraShake2), with a more complex source derived from spontaneous rupture modeling with small-scale stress-drop heterogeneity, predict a similar spatial pattern of peak ground velocity (PGV), but with the PGV extremes decreased by factors of 2-3 relative to TeraShake1. The TeraShake2 source excites a less coherent wave field, with reduced along-strike directivity accompanied by streaks of elevated ground motion extending away from the fault trace. The source complexity entails abrupt changes in the direction and speed of rupture correlated to changes in slip-velocity amplitude and waveform, features that might prove challenging to capture in a purely kinematic parameterization. Despite the reduced PGV extremes, northwest-rupturing TeraShake2 simulations still predict entrainment by basin structure of a strong directivity pulse, with PGVs in Los Angeles and San Gabriel basins that are much higher than predicted by empirical methods. Significant areas of those basins have predicted PGV above the 2 percent probability of exceedance (POE) level relative to current attenuation relationships (even when the latter includes a site term to account for local sediment depth), and wave-guide focusing produces localized areas with PGV at roughly 0.1--0.2 percent POE (about a factor of 4.5 above the median). In contrast, at rock sites in the 0-100-km distance range, the median TeraShake2 PGVs are in very close agreement with the median empirical prediction, and extremes nowhere reach the 2 percent POE level. The rock-site agreement lends credibility to some of our source-modeling assumptions, including overall stress-drop level and the manner in which we assigned dynamic parameters to represent the mechanical weakness of near-surface material. Future efforts should focus on validating and refining these findings, assessing their probabilities of occurrence relative to alternative rupture scenarios for the southern San Andreas fault, and incorporating them into seismic hazard estimation for southern California.},
-  File                     = {Olsen_2008_BSSA.pdf:C\:\\Documents and Settings\\root\\My Documents\\My eJournals\\Olsen_2008_BSSA.pdf:PDF},
-  Url                      = {http://www.bssaonline.org/cgi/content/abstract/98/3/1162}
+  Doi                      = {10.1785/0120070148},
+  File                     = {Olsen_2008_BSSA.pdf:C\:\\Documents and Settings\\root\\My Documents\\My eJournals\\Olsen_2008_BSSA.pdf:PDF}
 }
 
 @Article{Olsen_1997_S,
@@ -6490,6 +6527,26 @@ It is the purpose of this paper to provide an overview of soil constitutive mode
 
   Address                  = {San Francisco, California, December 15--19},
   Number                   = {S13A-4420}
+}
+
+@InProceedings{Riano_2016_AGU,
+  Title                    = {Surface Topography Effects in Three-Dimensional Physics-Based Deterministic Ground Motion Simulations in Southern {C}alifornia},
+  Author                   = {Ria\~{n}o, A. C. and Restrepo, D. and Taborda, R. and Bielak, J.},
+  Booktitle                = {Abstr.~AGU Fall Meet.},
+  Year                     = {2016},
+
+  Address                  = {San Francisco, California, December 12--16},
+  Number                   = {submitted}
+}
+
+@InProceedings{Riano_2016_SCEC,
+  Title                    = {Surface Topography Effects in Three-Dimensional Physics-Based Deterministic Ground Motion Simulations in Southern {C}alifornia},
+  Author                   = {Ria\~{n}o, A. C. and Restrepo, D. and Taborda, R. and Bielak, J.},
+  Booktitle                = {Proc.~SCEC Annu. Meet.},
+  Year                     = {2016},
+
+  Address                  = {Palm Springs, California, September 11--14},
+  Number                   = {submitted}
 }
 
 @InProceedings{Riano_2015_Proc,
@@ -7237,8 +7294,7 @@ In this specific area of Nice, experimental measurements obtained for weak motio
   Number                   = {S21B-2200},
 
   Abstract                 = {This study deals with the effects of the built environment on the earthquake ground motion, and with how individual buildings interact with the surrounding soil and with each other. We conduct a parametric study using Hercules, the parallel octree-based finite element earthquake simulator developed by the Quake Group at Carnegie Mellon University. Because of the necessity of performing repeated ground motion simulations , our analysis is based on the Domain Reduction Method (DRM), a modular two-step finite element methodology for modeling earthquake ground motion in highly heterogeneous localized regions. Buildings are included by modifying Hercules' finite-element meshing routines so that they are incorporated as additional block elements that are adjusted to emulate the general geometric and dynamic characteristics of buildings in city-like arrangements. We conduct our study in the greater Los Angeles basin using the main shock of 1994 Northridge earthquake for frequencies up to 2 Hz and a domain size of 85x85x42.5 km3 as the first step of the DRM. Then, we reduce the size of the region to a small subdomain of 2x2x1 km3 within the downtown Los Angeles region and introduce the building structures, for the second step of the DRM, in order to perform the repeated simulations of the parametric study.},
-  Citeseerurl              = {http://www.ce.cmu.edu/~rtaborda/publications/html/abstract_2006a.html},
-  Url                      = {http://www.ce.cmu.edu/~rtaborda/publications/html/abstract_2006a.html}
+  Citeseerurl              = {http://www.ce.cmu.edu/~rtaborda/publications/html/abstract_2006a.html}
 }
 
 @InProceedings{Small_2014_SCEC,
@@ -7374,6 +7430,33 @@ In this specific area of Nice, experimental measurements obtained for weak motio
   Month                    = {March},
 
   Url                      = {http://www.pwri.go.jp/eng/ujnr/tc/a/wsssi/}
+}
+
+@InProceedings{Taborda_2016_QuakeCoRE_pst,
+  Title                    = {Model Validation in Ground Motion Simulations for Southern California},
+  Author                   = {Taborda, R.},
+  Booktitle                = {Abstr.~QuakeCoRE Annu.~Meet.},
+  Year                     = {2016},
+
+  Address                  = {Taupo, New Zealand, 31 August -- 2 September}
+}
+
+@InProceedings{Taborda_2016_QuakeCoRE_ws1,
+  Title                    = {Validation of physics-based ground motion simulations of past earthquakes},
+  Author                   = {Taborda, R.},
+  Booktitle                = {Ground Motion Simulation Validation Workshop, QuakeCoRE Annu.~Meet.},
+  Year                     = {2016},
+
+  Address                  = {Taupo, New Zealand, 31 August -- 2 September}
+}
+
+@InProceedings{Taborda_2016_QuakeCoRE_ws2,
+  Title                    = {Current efforts and future challenges in high-frequency ground motion simulation},
+  Author                   = {Taborda, R.},
+  Booktitle                = {Ground Motion Simulation Validation Workshop, QuakeCoRE Annu.~Meet.},
+  Year                     = {2016},
+
+  Address                  = {Taupo, New Zealand, 31 August -- 2 September}
 }
 
 @InProceedings{Taborda_2015_Wkshp,
@@ -7703,6 +7786,26 @@ These new implementations represent important advances in computational seismolo
   Year                     = {2002},
 
   Address                  = {Puebla, Puebla, Mexico, October 30 -- November 2}
+}
+
+@InProceedings{Taborda_2016_AGU,
+  Title                    = {Verification and Validation of High-Frequency ($f_{\max}$ = 5 {Hz}) Ground Motion Simulations of the 2014 {$M$5.1 La Habra, California}, earthquake},
+  Author                   = {Taborda, R. and Olsen, K. B. and Graves, R. W. and Silva, F. and Khoshnevis, N. and Savran, W. and Roten, D. and Shi, Z. and Goulet, C. A. and Bielak, J. and Maechling, P. J. and Cui, Y. and Jordan, T. H.},
+  Booktitle                = {Abstr.~AGU Fall Meet.},
+  Year                     = {2016},
+
+  Address                  = {San Francisco, California, December 12--16},
+  Number                   = {submitted}
+}
+
+@InProceedings{Taborda_2016_SCEC,
+  Title                    = {Verification and Validation of High-Frequency ($f_{\max}$ = 5 {Hz}) Ground Motion Simulations of the 2014 {$M$5.1 La Habra, California}, earthquake},
+  Author                   = {Taborda, R. and Olsen, K. B. and Graves, R. W. and Silva, F. and Khoshnevis, N. and Savran, W. and Roten, D. and Shi, Z. and Goulet, C. A. and Bielak, J. and Maechling, P. J. and Cui, Y. and Jordan, T. H.},
+  Booktitle                = {Proc.~SCEC Annu.~Meet.},
+  Year                     = {2016},
+
+  Address                  = {Paml Springs, CA, September 11--14},
+  Number                   = {submitted}
 }
 
 @InProceedings{Taborda_2003_Proc,
